@@ -50,6 +50,7 @@ const experiences = [
     achievements: [,
     ],
     technologies: []
+  }
 ];
 
 const ExperienceSection = () => {
