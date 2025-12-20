@@ -9,9 +9,9 @@ const experiences = [
     company: "Ambit Finvest Private Limited",
     location: "Mumbai, India",
     period: "February 2025-Present",
-    description: "Leading SEO, Content and Social Media strategy. I am also looking into WhatsApp management, Marketing cloud projects learning and spearheading these projects for Customer ROI." 
+    description: "Leading SEO, Content and Social Media strategy. I am also looking into WhatsApp management, Marketing cloud projects learning and spearheading these projects for Customer ROI.", 
     achievements: [
-      "Leading a lean team of 2 members - Junior Marketing Associate and Creative Manager (Graphics Designer)"
+      "Leading a lean team of 2 members - Junior Marketing Associate and Creative Manager (Graphics Designer)",
       "Streamlined Social media strategy and posting cadence for increasing growth",
       "Building content funnel and frameworks that work best with the business' vision"
     ],
