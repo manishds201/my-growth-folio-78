@@ -36,7 +36,8 @@ const experiences = [
     company: "Performics India",
     location: "Mumbai, India",
     period: "April 2019 - October 2021",
-    description: "Started career building websites and web applications for diverse clients across multiple industries."
+    description: "Started career building websites and web applications for diverse clients across multiple industries.",
+    achievements: [,
     ],
     technologies: ["Google Analytics"]
   }
