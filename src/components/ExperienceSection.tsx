@@ -5,23 +5,23 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Software Engineer",
-    company: "TechCorp Inc.",
-    location: "San Francisco, CA",
-    period: "2021 - Present",
-    description: "Leading development of cloud-native applications serving 2M+ users. Architected microservices infrastructure reducing deployment time by 60%.",
+    title: "Content Strategist",
+    company: "Ambit Finvest Private Limited",
+    location: "Mumbai, India",
+    period: "February 2025-Present",
+    description: "Leading SEO, Content and Social Media strategy. I am also looking into WhatsApp management, Marketing cloud projects learning and spearheading these projects for Customer ROI. 
     achievements: [
-      "Led team of 5 engineers in delivering mission-critical features",
-      "Reduced application load time by 40% through performance optimization",
-      "Implemented CI/CD pipelines improving release frequency by 3x"
+      "Leading a lean team of 2 members - Junior Marketing Associate and Creative Manager (Graphics Designer)
+      "Streamlined Social media strategy and posting cadence for increasing growth",
+      "Building content funnel and frameworks that work best with the business' vision"
     ],
-    technologies: ["React", "TypeScript", "Node.js", "AWS", "Kubernetes"]
+    technologies: ["Google Keyword Planner", "Gemini AI", "Marketing Cloud Salesforce", "WhatsApp Business"]
   },
   {
-    title: "Software Engineer",
-    company: "StartupXYZ",
-    location: "Remote",
-    period: "2019 - 2021",
+    title: "Senior Manager - Content Marketing",
+    company: "Kotak Life",
+    location: "Mumbai, India",
+    period: "2022 - 2025",
     description: "Full-stack development for a B2B SaaS platform. Built features from conception to deployment, working closely with product and design teams.",
     achievements: [
       "Developed real-time collaboration features used by 100+ enterprise clients",
