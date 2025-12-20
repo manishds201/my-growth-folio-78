@@ -15,33 +15,30 @@ const experiences = [
       "Streamlined Social media strategy and posting cadence for increasing growth",
       "Building content funnel and frameworks that work best with the business' vision"
     ],
-    technologies: ["Google Keyword Planner", "Gemini AI", "Marketing Cloud Salesforce", "WhatsApp Business"]
+    technologies: ["Google Keyword Planner", "Gemini AI", "Marketing Cloud Salesforce", "WhatsApp Business", "Google Analytics"]
   },
   {
     title: "Senior Manager - Content Marketing",
     company: "Kotak Life",
     location: "Mumbai, India",
     period: "2022 - 2025",
-    description: "Full-stack development for a B2B SaaS platform. Built features from conception to deployment, working closely with product and design teams.",
+    description: "Led Content and Creative strategy for SEO, paid media marketing, Email marketing.",
     achievements: [
-      "Developed real-time collaboration features used by 100+ enterprise clients",
-      "Reduced customer churn by 25% through improved UX initiatives",
-      "Mentored 3 junior developers to senior positions"
+      "I Initiated influencer marketing campaigns in paid channel. Saw exponential growth in leads and conversions",
+      "Content creation for category pages from SEO-first approach. Saw ranking growth from 8th to 3rd position in 1.5 years",
+      "Mentored interns around product understanding and how initiatives are taken from ideation to execution and till the end goal",
+      "Initiated Insurance stories section on the website to build an editorial aspect of life insurance."
     ],
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Docker", "GraphQL"]
+    technologies: ["Google Analytics", "Frase.io"]
   },
   {
-    title: "Junior Developer",
-    company: "Digital Agency Co.",
-    location: "New York, NY",
-    period: "2016 - 2019",
+    title: "Content Writer",
+    company: "Performics India",
+    location: "Mumbai, India",
+    period: "April 2019 - October 2021",
     description: "Started career building websites and web applications for diverse clients across multiple industries.",
-    achievements: [
-      "Delivered 30+ client projects on time and within budget",
-      "Introduced modern JavaScript frameworks to the team workflow",
-      "Received 'Rising Star' award for outstanding performance"
     ],
-    technologies: ["JavaScript", "PHP", "MySQL", "WordPress", "React"]
+    technologies: ["Google Analytics"]
   }
 ];
 
