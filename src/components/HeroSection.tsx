@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Mail, Linkedin, Github, ExternalLink } from "lucide-react";
+import { MapPin, Mail, Linkedin, Instagram, ExternalLink } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -33,7 +33,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-foreground mb-6 text-balance"
           >
-            Alex Morgan
+            Manish D Shanbhag
           </motion.h1>
 
           <motion.p
@@ -42,8 +42,8 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground font-body mb-8 max-w-2xl"
           >
-            Senior Software Engineer crafting elegant solutions to complex problems. 
-            Passionate about clean code, user experience, and building products that matter.
+            Building content solutions for digital growth, branding, and overall business impact. 
+            Leading SEO, Website, Content strategy and social media along with other impactful MarComm projects.
           </motion.p>
 
           {/* Location & Contact */}
@@ -58,7 +58,7 @@ const HeroSection = () => {
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               <MapPin className="w-4 h-4" />
-              <span>San Francisco, CA</span>
+              <span>Mumbai, India</span>
             </a>
             <a 
               href="mailto:alex@example.com" 
@@ -77,7 +77,7 @@ const HeroSection = () => {
             className="flex gap-3"
           >
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/manish-shanbhag/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-card shadow-soft hover:shadow-elevated hover:-translate-y-1 transition-all duration-300 text-muted-foreground hover:text-foreground"
@@ -86,13 +86,13 @@ const HeroSection = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com"
+              href="https://www.instagram.com/manish_09724/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-card shadow-soft hover:shadow-elevated hover:-translate-y-1 transition-all duration-300 text-muted-foreground hover:text-foreground"
-              aria-label="GitHub Profile"
+              aria-label="Insta profile"
             >
-              <Github className="w-5 h-5" />
+              <Instagram className="w-5 h-5" />
             </a>
             <a
               href="#"
