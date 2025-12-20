@@ -61,11 +61,11 @@ const HeroSection = () => {
               <span>Mumbai, India</span>
             </a>
             <a 
-              href="mailto:alex@example.com" 
+              href="mailto:manishshanbhag02@gmail.com" 
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
             >
               <Mail className="w-4 h-4" />
-              <span>alex@example.com</span>
+              <span>manishshanbhag02@gmail.com</span>
             </a>
           </motion.div>
 
