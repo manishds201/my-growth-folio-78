@@ -36,11 +36,20 @@ const experiences = [
     company: "Performics India",
     location: "Mumbai, India",
     period: "April 2019 - October 2021",
-    description: "Started career building websites and web applications for diverse clients across multiple industries.",
+    description: "Creating content for various clients like Bajaj Allianz Life, Bajaj Allianz General, Gillete etc.",
     achievements: [,
     ],
     technologies: ["Google Analytics"]
-  }
+  }, 
+  {
+    title: "Content Writer",
+    company: "Iksula Services",
+    location: "Mumbai, India",
+    period: "October 2018 - April 2019",
+    description: "Feature writing for the website shoes.com. Began my copywriting and content career here",
+    achievements: [,
+    ],
+    technologies: []
 ];
 
 const ExperienceSection = () => {
