@@ -25,7 +25,7 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl md:text-4xl font-display font-bold text-foreground mb-8"
           >
-            Building the future, one line of code at a time
+            Connecting Digital Dots, One Platform at a time! 
           </motion.h2>
 
           <motion.div
@@ -35,18 +35,17 @@ const AboutSection = () => {
             className="prose prose-lg max-w-none"
           >
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              With over 8 years of experience in software development, I've had the privilege of working 
-              with startups and Fortune 500 companies alike. My journey began with a fascination for 
-              how technology can solve real-world problems, and that passion continues to drive me today.
+              With over 8 years+ of experience in content marketing, copywriting, and SEO, I've had the privilege of working 
+              with BFSI companies like Kotak Life Insurance and Ambit Finvest. 
+              My journey began when I first started writing as a hobby on a platform called blogspot. 
+              Its been 10 years to it, and here I am, a content strategist at a reputed firm in Mumbai managing website, SEO, content, and social media. 
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              I specialize in building scalable web applications using modern technologies like React, 
-              TypeScript, and Node.js. Beyond coding, I'm passionate about mentoring junior developers, 
-              contributing to open-source projects, and staying at the forefront of emerging technologies.
+              I specialize in helping BFSI brands build content engines that can slowly build impact and ROI. The content game for any brand these days have to be strong. There is no one-size-fits-all solution. 
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              When I'm not coding, you'll find me hiking the trails of Northern California, 
-              experimenting with new coffee brewing methods, or diving into a good sci-fi novel.
+              When I'm not coding, you'll find me listening to music, maybe vibing with it as if I am dancing. (BTW, I love dancing). 
+              I love my black coffee. Learning more and enjoying it with every sip. 
             </p>
           </motion.div>
 
