@@ -4,39 +4,49 @@ import { useRef } from "react";
 
 const skillCategories = [
   {
-    title: "Frontend",
+    title: "Creative Strategy",
     skills: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Tailwind CSS", level: 95 },
-      { name: "Vue.js", level: 75 },
+      { name: "Creative ideation", level: 85 },
+      { name: "Copywriting", level: 90 },
+      { name: "CTR improvement", level: 95 },
+      { name: "A/B Test creatives", level: 85 },
+      { name: "AI Literacy", level: 80},
     ]
   },
   {
-    title: "Backend",
+    title: "Content Marketing",
     skills: [
-      { name: "Node.js", level: 90 },
-      { name: "Python", level: 80 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "GraphQL", level: 75 },
+      { name: "Content Writing", level: 90 },
+      { name: "Content Editing", level: 90 },
+      { name: "UI/UX writing", level: 85 },
+      { name: "Canva", level: 65 },
     ]
   },
   {
-    title: "DevOps & Tools",
+    title: "Content Strategist",
     skills: [
-      { name: "AWS / GCP", level: 80 },
-      { name: "Docker / Kubernetes", level: 75 },
-      { name: "CI/CD", level: 85 },
-      { name: "Git", level: 95 },
+      { name: "Data-driven content planning", level: 70 },
+      { name: "People management", level: 75 },
+      { name: "Maintain & Follow Content calendar", level: 90 },
+      { name: "Understand business impact & ROI", level: 80 },
     ]
   },
   {
     title: "Soft Skills",
     skills: [
-      { name: "Technical Leadership", level: 90 },
+      { name: "Leadership", level: 90 },
       { name: "Mentoring", level: 85 },
-      { name: "Agile / Scrum", level: 90 },
-      { name: "Communication", level: 85 },
+      { name: "Communication", level: 90 },
+    ]
+  },
+  {
+    title: "Social Media management",
+    skills: [
+      { name: "Social media strategy", level: 92 },
+      { name: "Video editing", level: 89 },
+      { name: "Scripting", level: 87 },
+      { name: "Content Boost", level: 89},
+      { name: "LinkedIn showcase management", level:80},
     ]
   }
 ];
