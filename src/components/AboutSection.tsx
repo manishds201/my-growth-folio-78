@@ -38,7 +38,7 @@ const AboutSection = () => {
               With over 8 years+ of experience in content marketing, copywriting, and SEO, I've had the privilege of working 
               with BFSI companies like Kotak Life Insurance and Ambit Finvest. 
               My journey began when I first started writing as a hobby on a platform called blogspot. 
-              Its been 10 years to it, and here I am, a content strategist at a reputed firm in Mumbai managing website, SEO, content, and social media. 
+              It's been 10 years to it, and here I am, a content strategist at a reputed firm in Mumbai managing website, SEO, content, and social media. 
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               I specialize in helping BFSI brands build content engines that can slowly build impact and ROI. The content game for any brand these days have to be strong. There is no one-size-fits-all solution. 
@@ -76,6 +76,33 @@ const AboutSection = () => {
               </motion.div>
             ))}
           </motion.div>
+
+          {/* NEW: External Link Button */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.8 }}
+            className="mt-12 flex justify-center md:justify-start"
+          >
+            <a 
+              href="https://your-external-link.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-8 py-3 rounded-full bg-accent text-white font-medium transition-all hover:scale-105 hover:shadow-lg"
+            >
+              View My Portfolio
+              <svg 
+                className="ml-2 w-4 h-4" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </motion.div>
+          {/* End of Button */}
+
         </div>
       </div>
     </section>
