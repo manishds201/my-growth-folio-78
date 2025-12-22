@@ -10,7 +10,7 @@ const skillCategories = [
       { name: "Copywriting", level: 90 },
       { name: "CTR improvement", level: 95 },
       { name: "A/B Test creatives", level: 85 },
-      { name: "AI Literacy", level},
+      { name: "AI Literacy", level: 80},
     ]
   },
   {
