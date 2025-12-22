@@ -82,15 +82,15 @@ const AboutSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.8 }}
-            className="mt-12 flex justify-center md:justify-start"
+            className="mt-16 flex justify-center w-full"
           >
             <a 
-              href="https://your-external-link.com" 
+              href="https://versawrite.in/my-story-about-me/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-3 rounded-full bg-accent text-white font-medium transition-all hover:scale-105 hover:shadow-lg"
             >
-              View My Portfolio
+              Click here to know more about me!
               <svg 
                 className="ml-2 w-4 h-4" 
                 fill="none" 
