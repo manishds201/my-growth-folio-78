@@ -10,16 +10,7 @@ const skillCategories = [
       { name: "Copywriting", level: 90 },
       { name: "CTR improvement", level: 95 },
       { name: "A/B Test creatives", level: 85 },
-      { name: "AI Literacy", level: 80},
-    ]
-  },
-  {
-    title: "Content Marketing",
-    skills: [
-      { name: "Content Writing", level: 90 },
-      { name: "Content Editing", level: 90 },
-      { name: "UI/UX writing", level: 85 },
-      { name: "Canva", level: 65 },
+      { name: "AI Literacy", level},
     ]
   },
   {
@@ -28,7 +19,11 @@ const skillCategories = [
       { name: "Data-driven content planning", level: 70 },
       { name: "People management", level: 75 },
       { name: "Maintain & Follow Content calendar", level: 90 },
-      { name: "Understand business impact & ROI", level: 80 },
+      { name: "Understand business impact & ROI", level: 80 }
+      { name: "Content Writing", level: 90 },
+      { name: "Content Editing", level: 90 },
+      { name: "UI/UX writing", level: 85 },
+      { name: "Canva", level: 65 },
     ]
   },
   {
@@ -37,6 +32,7 @@ const skillCategories = [
       { name: "Leadership", level: 90 },
       { name: "Mentoring", level: 85 },
       { name: "Communication", level: 90 },
+      { name: " Stakeholder management", level: 90},
     ]
   },
   {
@@ -47,6 +43,17 @@ const skillCategories = [
       { name: "Scripting", level: 87 },
       { name: "Content Boost", level: 89},
       { name: "LinkedIn showcase management", level:80},
+    ]
+  }, 
+  {
+    title: "Search Engine Optimization",
+    skills: [
+      { name: "On-Page & Off-Page SEO", level: 91 },
+      { name: "Keyword Strategy", level: 90 },
+      { name: "Google Search Console", level: 75 },
+      { name: "Google Core Web Vitals", level: 60},
+      { name: "Content Distribution", level:80},
+      { name: "Google Analytics 4", level: 75},
     ]
   }
 ];
