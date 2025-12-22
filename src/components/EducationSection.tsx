@@ -5,26 +5,26 @@ import { GraduationCap, Award } from "lucide-react";
 
 const education = [
   {
-    degree: "Master of Science in Computer Science",
-    school: "Stanford University",
-    period: "2014 - 2016",
-    description: "Specialized in Machine Learning and Distributed Systems. Thesis on scalable real-time data processing.",
-    honors: "Graduated with Distinction"
+    degree: "PGDM - Marketing",
+    school: "Welingkar Institute",
+    period: "2023-2025",
+    description: "Specialized in Marketing Operation. Project on Role of Marketing Communication.",
+    honors: "Graduated with First Class"
   },
   {
-    degree: "Bachelor of Science in Software Engineering",
-    school: "University of California, Berkeley",
-    period: "2010 - 2014",
-    description: "Focus on Software Architecture and Human-Computer Interaction. Active member of the ACM student chapter.",
-    honors: "Dean's List, Summa Cum Laude"
+    degree: "Bachelor of Engineering (Computer Engineering)",
+    school: "University of Mumbai",
+    period: "2010 - 2015",
+    description: "Focus on understanding programming languages and use of concepts like AI and ML to build predictive models.",
+    honors: "Graduated with First Class"
   }
 ];
 
 const certifications = [
-  "AWS Solutions Architect Professional",
-  "Google Cloud Professional Developer",
-  "Kubernetes Application Developer (CKAD)",
-  "MongoDB Certified Developer"
+  "Strategic Content Marketing: Attract, Engage, and Retain",
+  "Marketing: Conversion Rate Optimization",
+  "Generative AI for Marketers",
+  "Design Thinking"
 ];
 
 const EducationSection = () => {
