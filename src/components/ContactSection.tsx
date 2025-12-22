@@ -8,9 +8,9 @@ const ContactSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/manish-shanbhag/", label: "LinkedIn" },
+    { icon: Github, href: "https://www.instagram.com/manish_09724/", label: "Instagram" },
+    { icon: Twitter, href: "https://x.com/Manish91331051", label: "X" },
   ];
 
   return (
@@ -53,7 +53,7 @@ const ContactSection = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12"
           >
             <a
-              href="mailto:alex@example.com"
+              href="mailto:manishshanbhag02@gmail.com"
               className="inline-flex items-center gap-3 px-6 py-4 bg-background rounded-xl shadow-soft hover:shadow-elevated transition-all duration-300 group"
             >
               <div className="p-2 rounded-lg bg-accent/10 text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
@@ -61,7 +61,7 @@ const ContactSection = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-muted-foreground uppercase tracking-wide">Email</p>
-                <p className="font-medium text-foreground">alex@example.com</p>
+                <p className="font-medium text-foreground">manishshanbhag02@gmail.com</p>
               </div>
             </a>
 
@@ -71,7 +71,7 @@ const ContactSection = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-muted-foreground uppercase tracking-wide">Location</p>
-                <p className="font-medium text-foreground">San Francisco, CA</p>
+                <p className="font-medium text-foreground">Mumbai, India</p>
               </div>
             </div>
           </motion.div>
