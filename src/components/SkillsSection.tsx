@@ -19,7 +19,7 @@ const skillCategories = [
       { name: "Data-driven content planning", level: 70 },
       { name: "People management", level: 75 },
       { name: "Maintain & Follow Content calendar", level: 90 },
-      { name: "Understand business impact & ROI", level: 80 }
+      { name: "Understand business impact & ROI", level: 80 },
       { name: "Content Writing", level: 90 },
       { name: "Content Editing", level: 90 },
       { name: "UI/UX writing", level: 85 },
