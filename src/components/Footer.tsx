@@ -15,7 +15,7 @@ const Footer = () => {
           className="flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <p className="text-sm text-primary-foreground/80">
-            © {currentYear} Alex Morgan. All rights reserved.
+            © {currentYear} Manish Shanbhag. All rights reserved.
           </p>
           <p className="text-sm text-primary-foreground/80 flex items-center gap-2">
             Made with <Heart className="w-4 h-4 text-accent fill-accent" /> using React & Tailwind
