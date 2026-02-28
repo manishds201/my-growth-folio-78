@@ -10,7 +10,6 @@ const ContactSection = () => {
   const socialLinks = [
     { icon: Linkedin, href: "https://www.linkedin.com/in/manish-shanbhag/", label: "LinkedIn" },
     { icon: Instagram, href: "https://www.instagram.com/manish_09724/", label: "Instagram" },
-    { icon: X, href: "https://x.com/Manish91331051", label: "X" },
   ];
 
   return (
