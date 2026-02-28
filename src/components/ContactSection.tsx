@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, MapPin, Linkedin, Github, Twitter, Download } from "lucide-react";
+import { Mail, MapPin, Linkedin, Instagram, Download } from "lucide-react";
 
 const ContactSection = () => {
   const ref = useRef(null);
@@ -10,7 +10,6 @@ const ContactSection = () => {
   const socialLinks = [
     { icon: Linkedin, href: "https://www.linkedin.com/in/manish-shanbhag/", label: "LinkedIn" },
     { icon: Instagram, href: "https://www.instagram.com/manish_09724/", label: "Instagram" },
-    { icon: X, href: "https://x.com/Manish91331051", label: "X" },
   ];
 
   return (
